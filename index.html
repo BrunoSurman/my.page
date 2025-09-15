@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bruno Surman – Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Hero -->
+  <header class="hero">
+    <h1>Bruno Surman</h1>
+    <p>Motosport photographer</p>
+    <div class="links">
+      <a href="https://www.instagram.com/brunosurman/" target="_blank">Instagram</a>
+      <a href="mailto:brunosurman@gmail.com">Email</a>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      Hey there, I'm Bruno and I'm motosport photographer/fan originated from Slovakia. 
+	I'm starting my journy so feel free to give me advice. 
+
+	I use Nikon D90 - pretty old camera but "you have to use what u have".
+	I have been doing it for aroud 4 months now.
+    </p>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="section">
+    <h2>Gallery</h2>
+    <div class="grid">
+      <img src="images/photo1.jpg" alt="Work 1">
+      <img src="images/photo2.jpg" alt="Work 2">
+      <img src="images/photo3.jpg" alt="Work 3">
+      <img src="images/photo4.jpg" alt="Work 4">
+      <img src="images/photo5.jpg" alt="Work 5">
+      <img src="images/photo6.jpg" alt="Work 6">
+      <!-- Add more images as needed -->
+    </div>
+  </section>
+
+  <footer>
+    © <span id="year"></span> Bruno Surman
+  </footer>
+
+  <script>
+    // auto year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
