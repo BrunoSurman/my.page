@@ -75,10 +75,10 @@ body {
 
 .grid img {
   width: 100%;
-  display: block;
+  height: auto;
   border-radius: 8px;
-  object-fit: cover;
-  transition: transform 0.3s ease;
+  display: block;
+  object-fit: contain;
 }
 
 .grid img:hover {
@@ -92,3 +92,4 @@ footer {
   border-top: 1px solid #333;
   font-size: 0.9rem;
 }
+
